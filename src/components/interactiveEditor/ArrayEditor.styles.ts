@@ -3,7 +3,7 @@ import { styled } from 'styled-components'
 export const Index = styled.span`
   width: 1em;
   text-align: center;
-  align-self: center;
+  align-self: flex-start;
   font-size: 10pt;
   font-weight: bold;
   color: var(--dark-3);

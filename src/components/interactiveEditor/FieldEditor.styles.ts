@@ -2,7 +2,7 @@ import { styled } from 'styled-components'
 
 export const FieldEditorWrapper = styled.div`
   
-  &:not(.array) {
+  &:not(.array, .object) {
     display: flex;
   }
   
