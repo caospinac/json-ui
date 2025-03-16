@@ -12,3 +12,10 @@ export const Column = styled.div`
   border: 1px solid var(--light-2);
 `
 
+export const RepoLink = styled.a`
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 20pt;
+`
+
