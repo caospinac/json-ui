@@ -1,3 +1,5 @@
+import '@fontsource/quicksand/400.css'
+
 import styled, { createGlobalStyle } from 'styled-components'
 
 export const GlobalColors = createGlobalStyle`
@@ -21,54 +23,19 @@ export const GlobalColors = createGlobalStyle`
     --primary: hsl(37, 97%, 52%);
     --secondary: hsl(5, 81%, 37%);
 
-    --red: hsl(5, 81%, 38%)
+    --red: hsl(5, 81%, 38%);
   }
 `
 
 
 export const GlobalStyles = createGlobalStyle`
-  @font-face {
-    font-family: 'Quicksand';
-    src: url('/assets/fonts/Quicksand-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Quicksand';
-    src: url('/assets/fonts/Quicksand-Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Quicksand';
-    src: url('/assets/fonts/Quicksand-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Quicksand';
-    src: url('/assets/fonts/Quicksand-SemiBold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Quicksand';
-    src: url('/assets/fonts/Quicksand-Bold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-  }
-
   body {
     margin: initial;
     display: initial;
     background-color: var(--light);
     color: var(--color-1);
     
-    font-family: 'Quicksand';
+		font-family: 'Quicksand', sans-serif;
 
     h1, h2, h3, h4, h5, h6 {
       margin-top: .5em;

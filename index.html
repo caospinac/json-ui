@@ -4,8 +4,33 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/icon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JSON UI</title>
+
+    <title>JSON UI - Dynamic JSON Editor</title>
+
+    <!-- EO Meta Description -->
+    <meta name="description" content="Interactively edit JSON data and dynamically generate graphical representation of it." />
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="JSON UI - Dynamic JSON Editor" />
+    <meta property="og:description" content="Interactively edit JSON data and dynamically generate graphical representation of it." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://jsonui.carlosospina.dev/preview.png" />
+    <meta property="og:url" content="https://jsonui.carlosospina.dev" />
+
+    <!-- Structured Data (schema.org JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "JSON UI",
+        "description": "Web-based interactively edit JSON data and dynamically generate graphical representation of it.",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Web",
+        "url": "https://jsonui.carlosospina.dev"
+      }
+    </script>
   </head>
+
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
